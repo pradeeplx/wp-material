@@ -1,0 +1,22 @@
+#profile-page .form-table textarea {
+    width: 100%;
+}
+
+#wpbd-edit-menu,
+#wp-admin-bar-new-content {
+    display: none !important;
+}
+
+#wp-admin-bar-site-name,
+#wp-admin-bar-root-default,
+#screen-meta-links {
+    display: none;
+}
+
+@media screen and (max-width: 782px) {
+
+    #wpbd-edit-menu,
+    #wp-admin-bar-root-default {
+        display: block;
+    }
+}
